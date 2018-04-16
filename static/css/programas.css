@@ -1,0 +1,20 @@
+.banners-linea
+{
+    margin-bottom: 20px;
+}
+
+.box-programas
+{
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+}
+
+.texto-hu.editabletext
+{
+    position: absolute;
+    top: 130px;
+    text-align: center;
+    width: 100%;
+    color: white;
+}
