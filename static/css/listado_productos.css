@@ -21,6 +21,12 @@ div.image-upload.part1
     left:40px;
 }
 
+.lg-close
+{
+    position: relative;
+    top: 15px;
+}
+
 .titulo-prou
 {
     position: absolute;
@@ -34,7 +40,6 @@ div.image-upload.part1
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-
 }
 
 .img-pro
