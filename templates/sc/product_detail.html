@@ -41,6 +41,14 @@
                 'container' : '.product-detail',
                 onLoad: function(product)
                 {
+                    $(".data-img").each(function()
+                    {
+                        if($(this).attr("data-responsive") == ",")
+                        {
+                            $(this).remove();
+                        }
+                    });
+
                     $("a#single_image").fancybox();
                     $('.fancybox').fancybox();
                     $("#lightgallery").lightGallery(
