@@ -184,7 +184,6 @@ hr.len
         margin-bottom: 2px;
         position: relative;
         object-fit: scale-down;
-        top: -206px;
         border: 1px solid rgba(128, 128, 128, 0.25);
         left: 167px;
     }
@@ -350,8 +349,14 @@ hr.len
 
     .img_prod_little
     {
-        left: 79px;
-        top: -193px;
+        top: 0px;
+        left: 90px;
+    }
+
+    ul#lightgallery
+    {
+        position: relative;
+        top: -400px;
     }
 
     .name_prod_detail
@@ -363,15 +368,6 @@ hr.len
         text-align: left;
         height: 64px;
         left: -257px;
-    }
-}
-
-@media (max-width: 412px)
-{
-    .img_prod_little
-    {
-        left: 79px;
-        top: -193px;
     }
 }
 
@@ -429,15 +425,8 @@ hr.len
     }
 }
 
-
 @media (max-width: 320px)
 {
-    .img_prod_little
-    {
-        top: -172px;
-        left: 62px;
-    }
-
     .fin
     {
         position: relative;
