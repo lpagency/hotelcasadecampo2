@@ -9,15 +9,15 @@
 {% end %}
 
 {% block css %}
-    <link href="{{ site_base }}/static/js/lightGallery/dist/css/lightgallery.css" rel="stylesheet">
+    <link href="{{ site_base }}/{{ nocache_static }}/js/lightGallery/dist/css/lightgallery.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="{{ site_base }}/common/js/bower/bodegas.client/dist/bodegas.client.css">
 {% end %}
 
 {% block javascript %}
-    <script type="text/javascript" src="{{ site_base }}/static/js/product_detail.js"></script>
-    <script type="text/javascript" src="{{ site_base }}/static/fancybox/source/jquery.fancybox.js?v=2.1.5"></script>
-    <script type="text/javascript" src="{{ site_base }}/static/js/dist/jquery.fancybox.js?v=2.1.5"></script>
-    <script src="{{ site_base }}/static/js/lightGallery/dist/js/lightgallery.js"></script>
+    <script type="text/javascript" src="{{ site_base }}/{{ nocache_static }}/js/product_detail.js"></script>
+    <script type="text/javascript" src="{{ site_base }}/{{ nocache_static }}/fancybox/source/jquery.fancybox.js?v=2.1.5"></script>
+    <script type="text/javascript" src="{{ site_base }}/{{ nocache_static }}/js/dist/jquery.fancybox.js?v=2.1.5"></script>
+    <script src="{{ site_base }}/{{ nocache_static }}/js/lightGallery/dist/js/lightgallery.js"></script>
     <script type="text/javascript">
 
         $(document).ready(function()
