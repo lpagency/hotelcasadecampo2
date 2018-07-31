@@ -32,7 +32,7 @@
             'https://pay.loadingplay.com',
             'https://pay.loadingplay.com/',
             'https://pay.loadingplay.com');
-        var app_public = $.environmentVar(74,74,74);
+        var app_public = $.environmentVar('hotelcasadecampo2','hotelcasadecampo2','hotelcasadecampo2');
         var config = {
             'app_public' : app_public,
             'base_url' : base_url,
@@ -81,7 +81,7 @@
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
-      <div class="item active" style="background:url('{{ read_image(site.name + '_img_slider_1') }}'); height:618px; width:100%; background-repeat:no-repeat; background-size:cover; background-position:center; 
+      <div class="item active" style="background:url('{{ read_image(site.name + '_img_slider_1') }}'); height:618px; width:100%; background-repeat:no-repeat; background-size:cover; background-position:center;
       box-shadow: inset 2000px 0 0 0 rgba(0, 0, 0, 0.3);" data-img-width="1600" data-img-height="890" data-diff="100">
           {% if is_admin %}
             <div class="image-upload visible-movil" style="top:80px;">
@@ -90,13 +90,13 @@
                </label>
                <input type="file" class="editableimage" image-id="{{ site.name }}_img_slider_1" name="image" id="img_slider_1" >
            </div>
-                 
+
            {% end %}
-    
+
        <!--  <img class="img_banner" id="{{ site.name }}_img_slider_1" src="{{ read_image(site.name + '_img_slider_1', 1) }}" onload="this.onload='';this.src='{{ read_image(site.name + '_img_slider_1',500) }}'" alt="item" style=" "> -->
-<!--         <img src="{{ read_image(site.name + '_slide1', 500) }}" alt="Slider 1" longdesc="{{ read_image(site.name + '_slide1', 500) }}" /> -->     
+<!--         <img src="{{ read_image(site.name + '_slide1', 500) }}" alt="Slider 1" longdesc="{{ read_image(site.name + '_slide1', 500) }}" /> -->
       </div>
-     
+
 
 
 <!-- **otro** -->
@@ -108,14 +108,14 @@
                </label>
                <input type="file" class="editableimage" image-id="{{ site.name }}_img_slider_2" name="image" id="img_slider_2" >
            </div>
-          
+
            {% end %}
 
       <!--   <img class="img_banner" id="{{ site.name }}_img_slider_2" src="{{ read_image(site.name + '_img_slider_2', 1) }}" onload="this.onload='';this.src='{{ read_image(site.name + '_img_slider_2',500) }}'" alt="item" style=" "> -->
 
    <!--        <img src="{{ read_image(site.name + '_slide2', 500) }}" alt="Slide 2" longdesc="{{ read_image(site.name + '_slide2', 500) }}" /> -->
       </div>
-    
+
       <div class="mov item " style="background:url('{{ read_image(site.name + '_img_slider_3') }}'); height:618px; width:100%; background-repeat:no-repeat; background-size:cover; background-position:center; box-shadow: inset 2000px 0 0 0 rgba(0, 0, 0, 0.3);" data-img-width="1600" data-img-height="890" data-diff="100">
          {% if is_admin %}
             <div class="image-upload visible-movil" style="top:80px;">
@@ -124,7 +124,7 @@
                </label>
                <input type="file" class="editableimage" image-id="{{ site.name }}_img_slider_3" name="image" id="img_slider_3" >
            </div>
-        
+
            {% end %}
         <!-- <img class="img_banner" id="{{ site.name }}_img_slider_3" src="{{ read_image(site.name + '_img_slider_3', 1) }}" onload="this.onload='';this.src='{{ read_image(site.name + '_img_slider_3',500) }}'" alt="item" style=" "> -->
      <!--      <img src="{{ read_image(site.name + '_slide3', 500) }}" alt="Slide 3" longdesc="{{ read_image(site.name + '_slide3', 500) }}" /> -->
@@ -138,7 +138,7 @@
                </label>
                <input type="file" class="editableimage" image-id="{{ site.name }}_img_slider_4" name="image" id="img_slider_4" >
            </div>
-           
+
            {% end %}
         <!-- <img class="img_banner" id="{{ site.name }}_img_slider_4" src="{{ read_image(site.name + '_img_slider_4', 1) }}" onload="this.onload='';this.src='{{ read_image(site.name + '_img_slider_4',500) }}'" alt="item" style=" "> -->
       <!--   <img src="{{ read_image(site.name + '_slide4', 500) }}" alt="Slide 4" longdesc="{{ read_image(site.name + '_slide4', 500) }}" /> -->
@@ -147,9 +147,9 @@
 
         <div align="center">
           <div class="lateral l-movil" style="position: relative; margin-top: -403px; float:left; left:40px;">
-            <div class="reser">  
-              <div id="reserva" class="paxer-widget-calendar" style="height: 272px; width: 209px; z-index:1000;">  
-<!-- 
+            <div class="reser">
+              <div id="reserva" class="paxer-widget-calendar" style="height: 272px; width: 209px; z-index:1000;">
+<!--
                <iframe id="paxer-iframe-calendar" src="https://paxer.com/reservacion/bookingengine/calendar/hot_id/180/chain_active/false/lang/es/secure/false/widgetUrl/http%3A%2F%2Fhotelcasadecampo.cl%2F" scrolling="no" style=" height: 458px; visibility: visible; border-color: transparent; width: 100%;"></iframe> -->
              </div>
            </div>
@@ -197,7 +197,7 @@
         <div align="center">
           <div class="text-box text-center {{editabletext}}" text-id="{{ site.name + '_t_box' }}"> {{ read_text(site.name +  '_t_box') }}</div>
         </div>
-      </a> 
+      </a>
       <!--  <img src="https://7static.loadingplay.com/static/images/fb1025f549f4c01c2a27ff6354556f4f_Casa-de-Campo-La-Romana-221209-2.png" class="box-chic">  -->
     </div>
 
@@ -205,7 +205,7 @@
     <img class="change-image editablelink" link-id="{{ site.name + '_box_1' }}" content="{{ read_link(site.name + '_box_1') }}" src="{{ site_base }}/{{ nocache_static }}/img/link.png" onmouseover="this.src='{{ site_base }}/{{ nocache_static }}/img/link.png';" onmouseout="this.src='{{ site_base }}/{{ nocache_static }}/img/link.png';">
     {% end %}
   </div>
-  
+
 
 
   <div class="col-md-3 article-box-2">
@@ -218,7 +218,7 @@
      <input type="file" class="editableimage" image-id="{{ site.name }}_box_2" name="image" id="img_box_2" >
    </div>
    {% end %}
-   
+
    <a id="{{ site.name + '_box_2' }}" href="{{ read_link(site.name + '_box_2') }}">
      <img id="{{ site.name }}_box_2" src="{{ read_image(site.name + '_box_2', 1) }}" onload="this.onload='';this.src='{{ read_image(site.name + '_box_2',) }}'" class="box-chic" alt="item">
      <div align="center">
@@ -322,7 +322,7 @@
     <img class="change-image editablelink" link-id="{{ site.name + '_box_5' }}" content="{{ read_link(site.name + '_box_5') }}" src="{{ site_base }}/{{ nocache_static }}/img/link.png" onmouseover="this.src='{{ site_base }}/{{ nocache_static }}/img/link.png';" onmouseout="this.src='{{ site_base }}/{{ nocache_static }}/img/link.png';">
     {% end %}
 
-    
+
   </div>
 </div>
 
@@ -418,8 +418,8 @@
     <img class="change-image editablelink" link-id="{{ site.name + '_box_8' }}" content="{{ read_link(site.name + '_box_8') }}" src="{{ site_base }}/{{ nocache_static }}/img/link.png" onmouseover="this.src='{{ site_base }}/{{ nocache_static }}/img/link.png';" onmouseout="this.src='{{ site_base }}/{{ nocache_static }}/img/link.png';">
     {% end %}
 
-    
-    
+
+
   </div>
 
 
@@ -481,7 +481,7 @@
     {% end %}
 
 
-    
+
   </div>
 </div>
 
