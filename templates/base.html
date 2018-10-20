@@ -257,24 +257,8 @@
             ga('send', 'pageview');
         </script>
 
-        <script type='text/javascript'>
-            var paxer = {};
-            paxer.secret = 'TE3B88';
-            paxer.widgetType = 'BOTH';
-            paxer.triggerButton = 'reserva';  // Coloque aquí el id del botón o link de reservas de su sitio web
-            paxer.widgetTheme = 'transparent';
-            paxer.widgetColors = {"colorHeader1":"#f5f5f5","colorHeader2":"#313131","colorBody1":"#2e2c2b","colorBody2":"#cecece"};
-            paxer.paxerLang = ''; // Opcional: indique el código del idioma en el que desea ver el widget. Si no se especifica, establece el idioma principal del hotel. Idiomas soportados: es, en
-
-            (function()
-            {
-                var paxerScript = document.createElement('script');
-                paxerScript.type = 'text/javascript';
-                paxerScript.async = true;
-                paxerScript.src = 'https://paxer.com/lib/widget/paxer-booking.js?v='+ (new Date().getTime());
-                var hscr = document.getElementsByTagName('head')[0];
-                hscr.appendChild(paxerScript);
-            })();
-        </script>
+        <!-- MOTOR DE RESERVA NUEVO -->
+        <script src="https://hotels.cloudbeds.com/widget/load/nuZz8C/vert?newWindow=1"></script>
+        <!-- FIN MOTOR DE RESERVA NUEVO -->
     </body>
 </html>
