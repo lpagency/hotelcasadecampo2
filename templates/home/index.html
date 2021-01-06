@@ -299,7 +299,7 @@
 
   <div class="container-fluid">
     <div class="col-md-12 article-box-2">
-      <div style="position:relative;">
+      <!-- <div style="position:relative;">
         {% if is_admin %}
         <div class="image-upload lapiz visible-movil">
          <label for="img_box_5">
@@ -314,8 +314,7 @@
           <div class="text-box text-center {{editabletext}}" text-id="{{ site.name + '_t_box_5' }}"> {{ read_text(site.name +  '_t_box_5') }}</div>
         </div>
       </a>
-      <!--  <img src="https://7static.loadingplay.com/static/images/fb1025f549f4c01c2a27ff6354556f4f_Casa-de-Campo-La-Romana-221209-2.png" class="box-chic">  -->
-    </div>
+    </div> -->
 
     {% if is_admin %}
     <img class="change-image editablelink" link-id="{{ site.name + '_box_5' }}" content="{{ read_link(site.name + '_box_5') }}" src="{{ site_base }}/{{ nocache_static }}/img/link.png" onmouseover="this.src='{{ site_base }}/{{ nocache_static }}/img/link.png';" onmouseout="this.src='{{ site_base }}/{{ nocache_static }}/img/link.png';">
@@ -489,5 +488,3 @@
 
 {% include '../home/footer.html' %}
 {% end %}
-
-
